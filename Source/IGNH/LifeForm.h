@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/Character.h"
+#include "Util.h"
 #include "BaseItem.h"
 #include "LifeForm.generated.h"
 

@@ -3,15 +3,9 @@
 #pragma once
 
 #include "GameFramework/Actor.h"
+#include "Util.h"
 #include "BaseItem.generated.h"
 
-// Item type enum
-UENUM(BlueprintType)
-enum class EItemEnum : uint8
-{
-	IE_Wearable			UMETA(DisplayName = "Wearable"),
-	IE_Useable			UMETA(DisplayName = "Useable")
-};
 
 UCLASS()
 class IGNH_API ABaseItem : public AActor
