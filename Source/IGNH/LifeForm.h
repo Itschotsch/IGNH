@@ -3,7 +3,9 @@
 #pragma once
 
 #include "GameFramework/Character.h"
+#include "BaseItem.h"
 #include "LifeForm.generated.h"
+
 
 // Character state enum
 UENUM(BlueprintType)
